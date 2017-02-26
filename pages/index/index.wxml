@@ -5,6 +5,6 @@
     <text class="userinfo-nickname">{{userInfo.nickName}}</text>
   </view>
   <view class="usermotto">
-    <text class="user-motto">{{motto}}222222</text>
+    <text class="user-motto">{{motto}}22433332</text>
   </view>
 </view>
