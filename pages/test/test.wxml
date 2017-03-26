@@ -1,0 +1,3 @@
+<view wx:if="{{view=='WEBVIEW'}}">WEBVIEW</view>
+<view wx:if="{{view=='APP'}}">APP</view>
+<view wx:if="{{view=='MINA'}}">MINA</view>

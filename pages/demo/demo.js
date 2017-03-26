@@ -1,27 +1,37 @@
 Page({
-  data:{
-    text:"Page demo"
+  data: {
+    text: "Page demo"
   },
-  onLoad:function(options){
+  onLoad: function (options) {
     // 页面初始化 options为页面跳转所带来的参数
   },
-  onReady:function(){
+  onReady: function () {
     // 页面渲染完成
   },
-  onShow:function(){
+  onShow: function () {
     // 页面显示
   },
-  onHide:function(){
+  onHide: function () {
     // 页面隐藏
   },
-  onUnload:function(){
+  onUnload: function () {
     // 页面关闭
   },
-
-  formSubmit: function(e) {
-    console.log('form发生了sumbmit事件，携带数据为：',e.detail.value);
+  onPullDownRefresh: function () {
+    wx.showNavigationBarLoading() //在标题栏中显示加载
+    console.log("11111");
+    wx.hideNavigationBarLoading() //完成停止加载
+    wx.stopPullDownRefresh() //停止下拉刷新
   },
-  formReset: function() {
+
+  formSubmit: function (e) {
+    console.log('form发生了sumbmit事件，携带数据为：', e.detail.value);
+  },
+  formReset: function () {
     console.log('form发生了reset事件');
+  },
+  test:function(event) {
+    event.target.dataset.alphaBeta == 1
+    console.log(event);
   }
 })
