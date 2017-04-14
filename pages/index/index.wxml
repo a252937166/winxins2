@@ -6,6 +6,7 @@
   </view>
   <view id="tapTest" data-hi="MINA" bindtap="tapName">click me!</view>
   <view id="tapDemo" bindtap="bindViewDemo">Demo 页 </view>
+  <view id="tapView" bindtap="bindView">View 页 </view>
   <view class="usermotto">
     <text class="user-motto">{{motto}}22斯顿飞方</text>
     <i class="iconfont">&#xe623;</i>
