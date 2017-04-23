@@ -1,5 +1,4 @@
 .flex-wrp{
-    height: 100px;
     display:flex;
     background-color: #FFFFFF;
 }
@@ -15,4 +14,7 @@
 }
 .bc_blue{
     background-color: blue;
+}
+.bc_yellow{
+    background-color: yellow;
 }

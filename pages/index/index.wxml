@@ -11,6 +11,7 @@
     <text class="user-motto">{{motto}}22斯顿飞方</text>
     <i class="iconfont">&#xe623;</i>
   </view>
+  <view id="tapScroll" bindtap="bindScrollLearn">Scroll页</view>
 </view>
 
 

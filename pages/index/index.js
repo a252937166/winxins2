@@ -22,6 +22,16 @@ Page({
       url: '../viewLearn/viewLearn'
     })
   },
+  bindScroll: function () {
+    wx.navigateTo({
+      url: '../scrollView/scrollView'
+    })
+  },
+  bindScrollLearn: function () {
+    wx.navigateTo({
+      url:'../scrollLearn/scrollLearn'
+    })
+  },
   onLoad: function () {
     console.log('onLoad')
     var that = this

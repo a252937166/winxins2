@@ -4,7 +4,8 @@
     "pages/logs/logs",
     "pages/demo/demo",
     "pages/test/test",
-    "pages/viewLearn/viewLearn"
+    "pages/viewLearn/viewLearn",
+    "pages/scrollLearn/scrollLearn"
   ],
   "window": {
     "backgroundTextStyle": "light",

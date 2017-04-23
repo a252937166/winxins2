@@ -9,4 +9,7 @@
   box-sizing: border-box;
   background-color:#fff;
 }
+page{
+    background-color:#fff;
+}
 
