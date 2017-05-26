@@ -10,6 +10,7 @@
   background-color:#fff;
 }
 page{
+    font-family: "Microsoft YaHei";
     background-color:#fff;
 }
 
