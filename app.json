@@ -6,7 +6,9 @@
     "pages/test/test",
     "pages/viewLearn/viewLearn",
     "pages/scrollLearn/scrollLearn",
-    "pages/swiperLearn/swiperLearn"
+    "pages/swiperLearn/swiperLearn",
+    "pages/iconLearn/iconLearn",
+    "pages/textLearn/textLearn"
   ],
   "window": {
     "backgroundTextStyle": "light",

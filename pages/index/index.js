@@ -32,6 +32,11 @@ Page({
       url:'../scrollLearn/scrollLearn'
     })
   },
+  bindSwiper: function(){
+    wx.navigateTo({
+      url:'../swiperLearn/swiperLearn'
+    })
+  },
   onLoad: function () {
     console.log('onLoad')
     var that = this
