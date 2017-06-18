@@ -5,12 +5,13 @@
     "pages/demo/demo",
     "pages/test/test",
     "pages/viewLearn/viewLearn",
-    "pages/scrollLearn/scrollLearn"
+    "pages/scrollLearn/scrollLearn",
+    "pages/swiperLearn/swiperLearn"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "WeChat111",
     "navigationBarTextStyle": "black",
     "enablePullDownRefresh": true
   },
