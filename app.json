@@ -8,7 +8,9 @@
     "pages/scrollLearn/scrollLearn",
     "pages/swiperLearn/swiperLearn",
     "pages/iconLearn/iconLearn",
-    "pages/textLearn/textLearn"
+    "pages/textLearn/textLearn",
+    "pages/buttonLearn/buttonLearn",
+    "pages/inputLearn/inputLearn"
   ],
   "window": {
     "backgroundTextStyle": "light",

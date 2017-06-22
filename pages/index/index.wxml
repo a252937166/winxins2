@@ -8,6 +8,9 @@
   <view id="tapDemo" bindtap="bindViewDemo">Demo 页 </view>
   <view id="tapView" bindtap="bindView">View 页 </view>
   <view id="swiper" bindtap="bindSwiper">swiper</view>
+  <view id="text" bindtap="bindText">text</view>
+  <view id="button" bindtap="bindButton">button</view>
+  <view id="input" bindtap="bindInput">input</view>
   <view class="usermotto">
     <text class="user-motto">{{motto}}22斯顿飞方</text>
     <i class="iconfont">&#xe623;</i>

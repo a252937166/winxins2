@@ -37,6 +37,21 @@ Page({
       url:'../swiperLearn/swiperLearn'
     })
   },
+  bindText: function() {
+    wx.navigateTo({
+      url:'../textLearn/textLearn'
+    })
+  },
+  bindButton:function () {
+    wx.navigateTo({
+      url:'../buttonLearn/buttonLearn'
+    })
+  },
+  bindInput:function () {
+    wx.navigateTo({
+      url:'../inputLearn/inputLearn'
+    })
+  },
   onLoad: function () {
     console.log('onLoad')
     var that = this
