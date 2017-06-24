@@ -52,6 +52,16 @@ Page({
       url:'../inputLearn/inputLearn'
     })
   },
+  actionsheet: function () {
+    wx.navigateTo({
+      url:'../actionsheetLearn/actionsheetLearn'
+    })
+  },
+  map : function() {
+    wx.navigateTo({
+      url:'../mapLearn/mapLearn'
+    })
+  },
   onLoad: function () {
     console.log('onLoad')
     var that = this

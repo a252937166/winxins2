@@ -1,0 +1,17 @@
+<!--触发action-sheet事件-->
+<button type="primary" bindtap="listenerButton">弹出ActionSheet</button>
+<!--默认action-sheet为隐藏，由button触发-->
+<action-sheet hidden="{{actionSheetHidden}}" bindchange="listenerActionSheet" >
+
+    <block wx:for-items="{{actionSheetItems}}" wx:key="*this"> 
+        <action-sheet-item bindtap="bindItemTap" data-name="{{item}}aaaa" >{{item}}</action-sheet-item>
+    </block>
+    <!--自动隐藏action-sheet-->
+    <action-sheet-cancel>取消</action-sheet-cancel>
+</action-sheet>
+<view class="body-view">
+  <toast hidden="{{toast1Hidden}}" bindchange="toast1Change">
+    默认
+  </toast>
+  <button type="defualt" bindtap="toast1Tap">点击弹出默认toast</button>
+</view>

@@ -10,7 +10,9 @@
     "pages/iconLearn/iconLearn",
     "pages/textLearn/textLearn",
     "pages/buttonLearn/buttonLearn",
-    "pages/inputLearn/inputLearn"
+    "pages/inputLearn/inputLearn",
+    "pages/actionsheetLearn/actionsheetLearn",
+    "pages/mapLearn/mapLearn"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -20,6 +22,9 @@
     "enablePullDownRefresh": true
   },
   "tabBar": {
+    "color": "black",
+    "selectedColor": "black",
+    "backgroundColor": "",
     "borderStyle": "white",
     "list": [
       {
