@@ -62,6 +62,11 @@ Page({
       url:'../mapLearn/mapLearn'
     })
   },
+  api:function() {
+    wx.navigateTo({
+      url:'../apiLearn/apiLearn'
+    })
+  },
   onLoad: function () {
     console.log('onLoad')
     var that = this

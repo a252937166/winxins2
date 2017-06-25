@@ -13,6 +13,7 @@
   <view id="input" bindtap="bindInput">input</view>
   <view id="actionsheet" bindtap="actionsheet">actionsheet</view>
   <view id="map" bindtap="map">map</view>
+  <view id="api" bindtap="api">api</view>
   <view class="usermotto">
     <text class="user-motto">{{motto}}22斯顿飞方</text>
     <i class="iconfont">&#xe623;</i>

@@ -1,0 +1,8 @@
+<view class="container">
+  <view class="textContainer">
+    <text class="textStyle">{{text}}</text>
+    <button class="primary" bindtap="apiTest">点我</button>
+    <button class="primary" bindtap="uploadImg">上传图片</button>
+    <image src="{{src}}" binderror="imgError"></image>
+  </view>
+</view>

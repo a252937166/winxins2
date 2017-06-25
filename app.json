@@ -12,7 +12,8 @@
     "pages/buttonLearn/buttonLearn",
     "pages/inputLearn/inputLearn",
     "pages/actionsheetLearn/actionsheetLearn",
-    "pages/mapLearn/mapLearn"
+    "pages/mapLearn/mapLearn",
+    "pages/apiLearn/apiLearn"
   ],
   "window": {
     "backgroundTextStyle": "light",
